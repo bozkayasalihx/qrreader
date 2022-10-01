@@ -14,7 +14,7 @@ written by react native
 
 ## Tech
 
-Dillinger uses a number of open source projects to work properly:
+QR Reader uses a number of open source projects to work properly:
 
 - Typescript
 - React Native
