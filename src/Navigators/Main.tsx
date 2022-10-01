@@ -1,3 +1,4 @@
+import AnimatedIcon from '@/Components/AnimatedIcon'
 import { SettingsContainer } from '@/Containers'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
 import React from 'react'
@@ -19,7 +20,7 @@ const MainNavigator = () => {
         component={SettingsContainer}
         options={{
           tabBarIcon: ({ color, size }) => {
-            return <Icon name="home" color={color} size={size} />
+            return <AnimatedIcon />
           },
         }}
       />
